@@ -15,11 +15,16 @@ public class ClassesExercice {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+         /**
         String marque = "Peugeot";
         String modele = "208";
         int annee = 2021;
         double prix = 14500.0;
-        System.out.println("Voiture : " + marque + " " + modele + " de " + annee + " au prix de " + prix );
+        System.out.println(" " + marque + " " + modele + " de " + annee + " au prix de " + prix );
+          */
+       
+
+        
     }
     
 }
