@@ -46,8 +46,13 @@ System.out.println("Marque : " + v1.marque);
 System.out.println("Modele : " + v1.modele); 
 System.out.println("Annee : " + v1.annee); 
 System.out.println("Prix : " + v1.prix + " €");
-         */
+  
          Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+         v1.afficherDescription();
+                */
+          Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+         v1.afficherDescription();
+         v1.appliquerReduction(10.0); 
          v1.afficherDescription();
     }
 

@@ -29,5 +29,9 @@ public class Voiture {
 
 
 }
+    public void appliquerReduction(double pourcentage) {
+  
+    this.prix = prix - (prix * pourcentage / 100);
+}
     
 }
