@@ -40,13 +40,15 @@ System.out.println(" " + v2.marque + " " + v2.modele + " (" + v2.annee + ") - " 
          System.out.println("" + v1.marque + " " + v1.modele + " (" + v1.annee + ") - " + v1.prix );
 System.out.println(" " + v2.marque + " " + v2.modele + " (" + v2.annee + ") - " + v2.prix );
 System.out.println(" " + v3.marque + " " + v3.modele + " (" + v3.annee + ") - " + v3.prix);
-*/
+
       Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
 System.out.println("Marque : " + v1.marque);
 System.out.println("Modele : " + v1.modele); 
 System.out.println("Annee : " + v1.annee); 
 System.out.println("Prix : " + v1.prix + " €");
-         
+         */
+         Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+         v1.afficherDescription();
     }
 
 }

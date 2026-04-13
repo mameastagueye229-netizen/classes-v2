@@ -20,6 +20,14 @@ public class Voiture {
         this.modele = modele;
         this.annee = annee;
         this.prix = prix;
+        }
+    public void afficherDescription() {
+        System.out.println("Marque : " + marque);
+        System.out.println("Modèle : " + modele);
+        System.out.println("Année : " + annee);
+        System.out.println("Prix : " + prix + " €");
+
+
 }
     
 }
