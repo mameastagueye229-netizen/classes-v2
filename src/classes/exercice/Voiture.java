@@ -23,15 +23,21 @@ public class Voiture {
         }
     public void afficherDescription() {
         System.out.println("Marque : " + marque);
-        System.out.println("Modèle : " + modele);
-        System.out.println("Année : " + annee);
+        System.out.println("Modele : " + modele);
+        System.out.println("Annee : " + annee);
         System.out.println("Prix : " + prix + " €");
+        System.out.println("age    : " + calculAge() + " ans");
 
 
 }
     public void appliquerReduction(double pourcentage) {
   
     this.prix = prix - (prix * pourcentage / 100);
+    
+}
+    public int calculAge() {
+    int age = 2026 - annee;
+    return age; 
 }
     
 }
