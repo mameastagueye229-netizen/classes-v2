@@ -7,7 +7,7 @@ package classes.exercice;
 /**
  *
  * @author DELL
- */
+
 public class Pneus {
     int largeur;
     int hauteur;
@@ -19,5 +19,6 @@ public class Pneus {
         this.hauteur = hauteur;
         this.diametre = diametre;
         this.type = type;
+         */
      }   
 }
