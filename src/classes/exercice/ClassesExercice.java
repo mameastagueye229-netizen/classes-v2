@@ -49,16 +49,18 @@ System.out.println("Prix : " + v1.prix + " €");
   
          Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
          v1.afficherDescription();
-               
-          Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
-         v1.afficherDescription();
-         v1.appliquerReduction(10.0); 
-         v1.afficherDescription();
-          */
+      
             
           Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
          v1.afficherDescription();
-        
+                
+          Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+         v1.afficherDescription();
+         v1.appliquerReduction(10); 
+         v1.afficherDescription();
+         *  */
+           Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500);
+         v1.afficherDescription();
     }
 
 }

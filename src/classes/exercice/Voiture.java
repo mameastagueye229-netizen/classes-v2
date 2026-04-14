@@ -14,30 +14,37 @@ public class Voiture {
     String modele;
     int annee;
     double prix;
-    
+ 
     public Voiture(String marque, String modele, int annee, double prix) {
         this.marque = marque;
         this.modele = modele;
         this.annee = annee;
         this.prix = prix;
+       
         }
     public void afficherDescription() {
         System.out.println("Marque : " + marque);
         System.out.println("Modele : " + modele);
-        System.out.println("Annee : " + annee);
+       System.out.println("age    : " + calculAge() + " ans");
         System.out.println("Prix : " + prix + " €");
-        System.out.println("age    : " + calculAge() + " ans");
+       
 
 
 }
     public void appliquerReduction(double pourcentage) {
   
-    this.prix = prix - (prix * pourcentage / 100);
+    this.prix = prix - (prix * 10 / 100);
     
 }
+    public void appliquerReduction() {
+  
+    this.prix = prix - (prix * 20/ 100);
+    
+}
+ 
     public int calculAge() {
-    int age = 2026 - annee;
-    return age; 
+    // On calcule l'âge par rapport à l'année actuelle (2026 dans l'exercice)
+    int age = 2026 - this.annee; 
+    return age; // On renvoie la valeur pour qu'elle soit réutilisable ailleurs [cite: 150, 151]
 }
-    
 }
