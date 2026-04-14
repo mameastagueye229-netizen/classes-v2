@@ -19,6 +19,8 @@ public class Pneus {
         this.hauteur = hauteur;
         this.diametre = diametre;
         this.type = type;
-         */
-     }   
+         
+     }  
+ 
 }
+    */

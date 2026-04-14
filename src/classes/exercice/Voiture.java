@@ -43,8 +43,11 @@ public class Voiture {
 }
  
     public int calculAge() {
-    // On calcule l'âge par rapport à l'année actuelle (2026 dans l'exercice)
     int age = 2026 - this.annee; 
-    return age; // On renvoie la valeur pour qu'elle soit réutilisable ailleurs [cite: 150, 151]
+    return age;
 }
+public int doubleNombre(int n) {
+    int resultat = n * 2;
+    return resultat;
+   } 
 }
